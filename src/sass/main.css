@@ -28,4 +28,142 @@
   background-size: cover;
   background-position: center;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container {
+  width: 1435px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+:root {
+  --primary-text-color: #646464;
+  --secondary-text-color: #212121;
+  --third-text-color: #FFFFFF;
+  --accent-color: #37806B;
+  --secondary-accent-color: #CAA892;
+  --social-link-color: #D5D5D5;
+  --primary-background-color: #FFFFFF;
+  --secondary-background-color: #F8F8F8;
+}
+
+body {
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.btn {
+  min-width: 142px;
+  height: 78px;
+  padding-left: 28px;
+  padding-right: 28px;
+  border-radius: 20px 0px;
+  border: none;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 4.33;
+  text-align: center;
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 34px;
+  margin-bottom: 94px;
+}
+
+.nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-menu__item {
+  margin-right: 44px;
+}
+
+.nav-menu__item:last-child {
+  margin-right: 64px;
+}
+
+.nav-menu__link {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  color: var(--primary-text-color);
+}
+
+.header-btn {
+  display: block;
+  min-width: 97px;
+  height: 32px;
+  padding: 5px 19px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.38;
+  color: #FFFFFF;
+  background-color: var(--secondary-accent-color);
+}
 /*# sourceMappingURL=main.css.map */
