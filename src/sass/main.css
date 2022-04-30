@@ -61,12 +61,14 @@ img {
 }
 
 .section {
-  padding-top: 60px;
+  width: 1905px;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 60px;
 }
 
 .container {
-  width: 1396px;
+  width: 1430px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -88,7 +90,7 @@ body {
   font-family: Open Sans, sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.56;
+  line-height: 1.67;
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
 }
@@ -105,8 +107,17 @@ body {
 }
 
 .btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-width: 142px;
-  height: 78px;
+  height: 42px;
   padding-left: 28px;
   padding-right: 28px;
   border-radius: 20px 0px;
@@ -120,6 +131,18 @@ body {
   cursor: pointer;
 }
 
+.subtitle {
+  margin-bottom: 12px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.35;
+  color: var(--primary-text-color);
+}
+
+.section-text {
+  margin-bottom: 46px;
+}
+
 .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -127,8 +150,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 34px;
-  margin-bottom: 94px;
+  padding-top: 34px;
+  padding-bottom: 94px;
 }
 
 .nav-menu {
@@ -156,29 +179,42 @@ body {
 }
 
 .header-btn {
-  display: block;
   min-width: 97px;
   height: 32px;
   padding: 5px 19px;
+  font-family: inherit;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.38;
+  text-align: center;
   color: #FFFFFF;
   background-color: var(--secondary-accent-color);
+  border-radius: 20px 0px;
+  border: none;
+}
+
+.hero-section {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 76px;
 }
 
 .hero-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .hero-wrapper {
   width: 606px;
-  margin-right: 79px;
+  margin-right: auto;
 }
 
 .hero-title {
+  margin-bottom: 24px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -202,5 +238,16 @@ body {
   right: 35px;
   bottom: 33px;
   border-radius: 140px 0px;
+}
+
+.hero-icon {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 213px;
+  height: 153px;
+  background-image: url(/images/ellipse-icon-new.svg);
+  background-repeat: repeat;
 }
 /*# sourceMappingURL=main.css.map */

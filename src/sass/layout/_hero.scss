@@ -1,13 +1,24 @@
+.hero-section {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 76px;
+}
+
 .hero-container {
     display: flex;
+    align-items: center;
+    
 }
 
 .hero-wrapper {
     width: 606px;
-    margin-right: 79px;
+    
+    
+    margin-right: auto;
 }
 
 .hero-title {
+    margin-bottom: 24px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -36,6 +47,15 @@
     border-radius: 140px 0px;
 }
 
-
-
+.hero-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    width: 213px;
+    height: 153px;
+    background-image: url(/images/ellipse-icon-new.svg);
+    background-repeat: repeat;
+}
 
