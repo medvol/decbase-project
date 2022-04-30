@@ -66,7 +66,7 @@ img {
 }
 
 .container {
-  width: 1435px;
+  width: 1396px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -165,5 +165,42 @@ body {
   line-height: 1.38;
   color: #FFFFFF;
   background-color: var(--secondary-accent-color);
+}
+
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hero-wrapper {
+  width: 606px;
+  margin-right: 79px;
+}
+
+.hero-title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 1.08;
+  color: var(--secondary-text-color);
+}
+
+.image-wrapper {
+  position: relative;
+  width: 716px;
+  height: 626px;
+  border: 2px solid #B0855B;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 140px 0px;
+}
+
+.hero-image {
+  position: absolute;
+  right: 35px;
+  bottom: 33px;
+  border-radius: 140px 0px;
 }
 /*# sourceMappingURL=main.css.map */
