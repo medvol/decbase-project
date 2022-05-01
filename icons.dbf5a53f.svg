@@ -1,11 +1,13 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="arrow-right" viewBox="0 0 20 32">
-<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="5.8182" d="M2.909 2.909l11.636 13.091-11.636 13.091"></path>
+<path fill="none"  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="5.8182" d="M2.909 2.909l11.636 13.091-11.636 13.091"></path>
 </symbol>
+
 <symbol id="arrow-left" viewBox="0 0 22 32">
-<path fill="none" stroke="#646464" style="stroke: var(--color2, #646464)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="6.4" d="M19.2 3.2l-12.8 12.8 12.8 12.8"></path>
+<path fill="none"  stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="6.4" d="M19.2 3.2l-12.8 12.8 12.8 12.8"></path>
 </symbol>
+
 <symbol id="facebook" viewBox="0 0 32 32">
 <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
 </symbol>
