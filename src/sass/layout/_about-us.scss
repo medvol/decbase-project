@@ -1,8 +1,37 @@
-.about-us-section {
-    padding-top: 176px;
+.about-us__section {
+    padding-bottom: 176px;
 }
 
-.about-us-section-icon--left {
+.about-us__section-icon--left {
+    bottom: 50%;
+
+}
+
+.about-us__section-icon--right {
     transform: translateY(50%);
-
 }
+
+.about-us__image-wrapper {
+    width: 680px;
+    height: 726px;
+}
+
+.about-us-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+}
+
+.about-us-wrapper--bottom {
+    padding-bottom: 0;
+}
+
+.about-us-content {
+    width: 544px;
+    padding-top: 90px;
+}
+
+.title--top {
+    margin-top: 30px;
+}
+
