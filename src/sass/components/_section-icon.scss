@@ -1,9 +1,9 @@
 .section-icon--left {
     display: block;
     position: absolute;
-    
     left: 0;
     bottom: 0;
+    z-index: 5;
 
     width: 213px;
     height: 153px;
@@ -16,6 +16,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    z-index: 5;
 
     width: 213px;
     height: 153px;
