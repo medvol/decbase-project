@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"/home/runner/work/decbase-project/decbase-project/src/images/icon/ellipse-icon-new.svg":[["ellipse-icon-new.0198a39c.svg","FHHN"],"FHHN"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");
 },{"./sass/main.scss":"clu1"}]},{},["Focm"], null)
-//# sourceMappingURL=/decbase-project/src.d91835a0.js.map
+//# sourceMappingURL=/decbase-project/src.3d1095a4.js.map
