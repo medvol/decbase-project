@@ -1,26 +1,42 @@
 <section class="section blog__section">
     <div class="container">
         <p class="subtitle subtitle--center">LETEST NEWS</p>
-        <h2 class="title blog__title">From Our Blog</h2>
+        <h2 id="blog" class="title blog__title">From Our Blog</h2>
         <ul class="blog-wrapper">
             <li class="blog-list" >
                 <div class="image-wrapper blog__image-wrapper" >
-                    <img class="image-radius blog__image-radius" src="/images/commode.jpg" alt="picture of commode">
+                    <picture>
+                        <source srcset="./images/commode.webp 1x, ./images/commode@2x.webp 2x" type="image/webp">
+                        
+                        <source srcset="./images/commode.jpg 1x, ./images/commode@2x.jpg 2x">
+                        
+                        <img class="image-radius blog__image-radius" src="/images/commode.jpg" alt="picture of commode">
+
+                    </picture>
+                    
                 </div>
                 <p class="blog-list__title" >2020 Interior Design Trends</p>
                 <p class="blog-list__text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 incididunt ut labore et dolore magna aliqua.</p>
-                <a href="" class="btn blog__btn">CONTINUE READING....</a>
+                <a href="" class="btn blog__btn" target="_blank" rel="noreferrer noopener">CONTINUE READING....</a>
 
             </li>
             <li class="blog-list" >
                 <div class="image-wrapper blog__image-wrapper" >
-                    <img class="image-radius blog__image-radius" src="/images/living-room.jpg" alt="foto living room">
+                    <picture>
+                        <source srcset="./images/living-room.webp 1x, ./images/living-room@2x.webp 2x" type="image/webp">
+                        
+                        <source srcset="./images/living-room.jpg 1x, ./images/living-room@2x.jpg 2x">
+
+                        <img class="image-radius blog__image-radius" src="/images/living-room.jpg" alt="foto living room">
+
+                    </picture>
+                    
                 </div>
                 <p class="blog-list__title" >28 Notable Product at ARC Interior Design</p>
                 <p class="blog-list__text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                 incididunt ut labore et dolore magna aliqua.</p>
-                <a href="" class="btn blog__btn">CONTINUE READING....</a>
+                <a href="" class="btn blog__btn" target="_blank" rel="noreferrer noopener">CONTINUE READING....</a>
 
             </li>
         </ul>

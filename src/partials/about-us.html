@@ -2,11 +2,19 @@
     <div class="container">
         <div class="about-us-wrapper">
             <div class="about-us__image-wrapper image-wrapper">
-                <img class="image-radius image-radius--right" src="./images/about-us-image.jpg" alt="design anteroom">
+                <picture>
+                    <source srcset="./images/about-us-image.webp 1x, ./images/about-us-image@2x.webp 2x" type="image/webp">
+                    
+                    <source srcset="./images/about-us-image.jpg 1x, ./images/about-us-image@2x.jpg 2x">
+
+                    <img class="image-radius image-radius--right" src="./images/about-us-image.jpg" alt="design anteroom">
+
+                </picture>
+                
             </div>
             <div class="about-us-content">
                 <p class="subtitle">ABOUT US</p>
-                <h2 class="title">Interioris The Will of An Epoch Mextreo</h2>
+                <h2 id="about" class="title">Interioris The Will of An Epoch Mextreo</h2>
                 <p class="section-text">There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered alteration in some form injected
                     humour, or randomised words which don't look even slightly
@@ -29,7 +37,16 @@
             </div>
             
             <div class="image-wrapper about-us__image-wrapper">
-                <img class="image-radius" src="./images/about-us-wall.jpg" alt="shelves on the wall">
+                <picture>
+
+                    <source srcset="./images/about-us-wall.webp 1x, ./images/about-us-wall@2x.webp 2x" type="image/webp">
+                    
+                    <source srcset="./images/about-us-wall.jpg 1x, ./images/about-us-wall@2x.jpg 2x">
+
+                    <img class="image-radius" src="./images/about-us-wall.jpg" alt="shelves on the wall">
+
+                </picture>
+                
             </div>
 
         </div>
