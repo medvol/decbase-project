@@ -26,6 +26,10 @@
     font-size: 16px;
     line-height: 1.38;
     
+    color: var(--secondary-text-color);
+}
+
+.nav-menu__link--current {
     color: var(--primary-text-color);
 }
 
